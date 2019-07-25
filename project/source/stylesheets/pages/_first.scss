@@ -1,0 +1,86 @@
+.first{
+  margin: .5vw;
+  margin-left:.5vw;
+  height:99vh;
+  width: 99vw;
+  position:relative;
+
+}
+
+#hero__image{
+  margin:0;
+  padding:0;
+  height:99%;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 25%, 100% 75%, 0% 100%);
+  background-image: url(../images/pic14.jpg);
+  background-size: cover;
+   background-position: top;
+}
+
+#logo__image{
+  position:absolute;
+  top:-2%;
+  left:50%;
+  transform: translate(-50%,0);
+  height:15vh;
+}
+
+
+.svg__triangle{
+  z-index: 20;
+  position:fixed;
+  top:3%;
+  right:2%;
+  transform: rotate(90deg);
+  cursor:pointer;
+  transition: all .3s;
+
+  &-onClick{
+    transform:rotate(180deg);
+    transition: all .3s;
+    path{
+      fill:white;
+    }
+  }
+}
+
+.hero__text{
+  position:absolute;
+  top:50%;
+  left:5%;
+  transform: translate(0,-50%);
+
+  color:white;
+
+  h1{
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: 300;
+    letter-spacing: 2rem;
+
+  }
+
+  span{
+    font-size:5rem;
+    font-weight: 500;
+  }
+
+
+}
+
+.hero__button{
+  position:absolute;
+  top:75%;
+  left:50%;
+  transform: translate(-50%,-50%);
+    p{
+   text-align: center;
+    a{
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+
