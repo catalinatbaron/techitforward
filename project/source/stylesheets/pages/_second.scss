@@ -1,5 +1,5 @@
 .second{
-  height:125vh;
+  height:200vh;
   width: 99vw;
   margin: -27vh .5vw;
   background-color: #f1f1f1;
@@ -13,15 +13,26 @@
 
 .card{
   width: 100%;
-  height:50vh;
+  height:40vh;
+
+
   &-1{
     background-image: url(../images/adventure-1.jpg);
     background-size: cover;
+    width: 40vh;
   }
-  &-2{
-    background-image: url(../images/adventure-1.jpg);
-    background-size: cover;
+  &-2-right{
+    background: white;
+    height:20vh;
+    margin-left: -5rem;
   }
+
+  &-2-left{
+    background: white;
+    height:20vh;
+    margin-right:-5rem;
+  }
+
   &-3{
     background-image: url(../images/adventure-1.jpg);
     background-size:cover;
