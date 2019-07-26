@@ -25,8 +25,8 @@
     background-image: url(../images/adventure-2.jpg);
     background-size: cover;
     top:50%;
-    left:30%;
-    transform: translate(-30%,-50%);
+    left:20%;
+    transform: translate(-20%,-50%);
     width: 35rem;
     z-index:0;
     transition: all .4s;
@@ -42,8 +42,8 @@
     background-image: url(../images/adventure-2.jpg);
     background-size: cover;
     top:50%;
-    left:70%;
-    transform: translate(-70%,-50%);
+    left:80%;
+    transform: translate(-80%,-50%);
     width: 35rem;
     z-index:0;
     transition: all .4s;
@@ -58,8 +58,8 @@
   &-2{
     background-color: white;
     top:50%;
-    left:70%;
-    transform: translate(-70%,-50%);
+    left:60%;
+    transform: translate(-60%,-50%);
     height:20rem;
     width: 70rem;
     padding:2rem 3rem;
@@ -70,8 +70,8 @@
   &-2-left{
     background-color: white;
     top:50%;
-    left:30%;
-    transform: translate(-30%,-50%);
+    left:40%;
+    transform: translate(-40%,-50%);
     height:20rem;
     width: 70rem;
     padding:2rem 3rem;
