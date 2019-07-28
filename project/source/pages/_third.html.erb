@@ -1,0 +1,9 @@
+<section class="third">
+	<div class="u-center-text">
+		<h1 class="heading__principal">Our Team</h1>
+		<% data.team.each do |person, infos| %>
+		<p> <%= infos.name %> </p>
+		<p> <%= infos.position %> </p>
+		<% end %>
+	</div>
+</section>
