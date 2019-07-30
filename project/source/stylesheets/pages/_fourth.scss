@@ -7,36 +7,29 @@
 
 }
 
-#back__image{
-  margin:0;
-  padding:0;
-  height:99%;
-  width: 99%;
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 75%);
-  background-image: url(../images/fourth.jpg);
+.banner {
   background-size: cover;
-  background-position: top;
-  // linear-gradient: rgba(0,0,0,0.4),rgba(0,0,0,0.4);
+  background-position: center;
+  padding: 150px 0;
 }
 
-.motivation__text{
-  position:absolute;
-  top:50%;
-  left:5%;
-  transform: translate(0,-50%);
-
-  color:white;
-
-  h1{
-    text-transform: uppercase;
+.banner h1 {
+  margin-top: 10%;
+  margin-left: 3%;
+  margin-right: 3%;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     font-size: 4.5rem;
     font-weight: 300;
     letter-spacing: 2rem;
+  text-align: center;
+  // font-weight: bold;
+  text-transform: uppercase;
+}
 
-  }
-
-  span{
-    font-size:5rem;
-    font-weight: 500;
-  }
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
