@@ -1,5 +1,4 @@
 // This is where it all goes :)
-
   const svgTriangle = document.querySelector(".svg__triangle");
 
   svgTriangle.addEventListener("click", () => {
