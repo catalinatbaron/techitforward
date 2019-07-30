@@ -1,9 +1,21 @@
 <section class="third">
 	<div class="u-center-text">
 		<h1 class="heading__principal">Our Team</h1>
-		<% data.team.each do |person, infos| %>
-		<p> <%= infos.name %> </p>
-		<p> <%= infos.position %> </p>
-		<% end %>
+		<div class="cards-team">
+			<div class="card-team">
+				<img src="../images/Jessica.png" alt="Jessica"/>
+				<div class="card-team-infos">
+					<h2>Jessica Brown Rosner</h2>
+					<p>Co-founder of Tech it Forward</p>
+				</div>
+			</div>
+			<div class="card-team">
+				<img src="../images/Jennifer.png" alt="Jessica"/>
+				<div class="card-team-infos">
+					<h2>Jennifer Elias</h2>
+					<p>Co-founder of Tech it Forward</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
