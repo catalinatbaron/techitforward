@@ -1,0 +1,42 @@
+.fourt{
+  margin-right: .5vw;
+  margin-left:.5vw;
+  height:100vh;
+  width: 100vw;
+  position:relative;
+
+}
+
+#back__image{
+  margin:0;
+  padding:0;
+  height:99%;
+  width: 99%;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 75%);
+  background-image: url(../images/fourth.jpg);
+  background-size: cover;
+  background-position: top;
+  // linear-gradient: rgba(0,0,0,0.4),rgba(0,0,0,0.4);
+}
+
+.motivation__text{
+  position:absolute;
+  top:50%;
+  left:5%;
+  transform: translate(0,-50%);
+
+  color:white;
+
+  h1{
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: 300;
+    letter-spacing: 2rem;
+
+  }
+
+  span{
+    font-size:5rem;
+    font-weight: 500;
+  }
+}
