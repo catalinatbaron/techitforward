@@ -1,12 +1,12 @@
 .third {
-	height:100vh;
-	width: 99vw;
-  	margin: -27vh .5vw;
-  	background-color: $color-white;
-  	padding-top:30vh;
-  	clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 75%);
-  	padding-left: 5%;
-  	padding-right: 5%;
+  height:100vh;
+  width: 99vw;
+  margin: -25vh 0vh;
+  background-color: $color-white;
+  padding-top:30vh;
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 80%);
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .card-team {
@@ -19,17 +19,17 @@
   border-radius: 3px;
   /* width: 500px; */
 
-	& img {
-	  height: 150%;
-	  width: 200px;
-	  object-fit: cover;
-	}
+  & img {
+   height: 150%;
+   width: 200px;
+   object-fit: cover;
+ }
 
-	& h2 {
-	  font-size: 24px;
-	  font-weight: bold;
-	  margin: 0;
-	}
+ & h2 {
+   font-size: 24px;
+   font-weight: bold;
+   margin: 0;
+ }
 }
 
 
