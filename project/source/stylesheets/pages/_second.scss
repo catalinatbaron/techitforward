@@ -4,6 +4,7 @@
   margin: -27vh .5vw;
   background-color: $color-light-grey-1;
   padding-top:30vh;
+  padding-bottom: 25vh;
 }
 
 .row__cards{
@@ -21,7 +22,7 @@
   position:absolute;
 
   &-1{
-    background-image: url(../images/adventure-2.jpg);
+    background-image: url(../images/pic1.jpg);
     background-size: cover;
     top:50%;
     left:20%;
@@ -38,7 +39,7 @@
   }
 
   &-1-right{
-    background-image: url(../images/adventure-2.jpg);
+    background-image: url(../images/pic2.jpg);
     background-size: cover;
     top:50%;
     left:80%;
