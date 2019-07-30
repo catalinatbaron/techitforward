@@ -1,1 +1,87 @@
+.third {
+	height:100vh;
+	width: 99vw;
+  	margin: -27vh .5vw;
+  	background-color: $color-white;
+  	padding-top:30vh;
+  	clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 75%);
+  	padding-left: 5%;
+  	padding-right: 5%;
+}
 
+.card-team {
+  overflow: hidden;
+  height: 200px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  /* width: 500px; */
+
+	& img {
+	  height: 150%;
+	  width: 200px;
+	  object-fit: cover;
+	}
+
+	& h2 {
+	  font-size: 24px;
+	  font-weight: bold;
+	  margin: 0;
+	}
+}
+
+
+.card-team p {
+  font-size: 18px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-team .card-team-infos {
+  padding: 16px;
+}
+
+.cards-team {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards-team {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .cards-team {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .cards-team {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .cards-team {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cards-team {
+    grid-template-columns: 1fr 1fr;
+  }
+}
