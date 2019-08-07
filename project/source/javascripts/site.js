@@ -11,5 +11,5 @@ svgTriangle.addEventListener("click", () => {
 const services = document.querySelector("#services");
 
 services.addEventListener("click", function() {
-  window.scrollTo(0,1000);
+  window.scroll(0,100);
 })
