@@ -1,15 +1,16 @@
-.fourth{
-  height:100vh;
+.frase{
+  height:120vh;
   width: 99vw;
   position:relative;
   margin: -25vh .5vw;
-  clip-path: polygon(0 0, 100% 25vh, 100% 100%, 0 75vh);
 }
 
 .banner {
+  height:120vh;
   background-size: cover;
   background-position: center;
   padding: 15% 0;
+  clip-path: polygon(0 0, 100% 25vh, 100% 100%, 0 75%);
 }
 
 .banner h1 {
@@ -18,9 +19,9 @@
   margin-right: 3%;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-    font-size: 4.5rem;
-    font-weight: 300;
-    letter-spacing: 2rem;
+  font-size: 4.5rem;
+  font-weight: 300;
+  letter-spacing: 2rem;
   text-align: center;
   // font-weight: bold;
   text-transform: uppercase;
@@ -32,3 +33,5 @@
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
+
+
