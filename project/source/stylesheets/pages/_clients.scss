@@ -1,0 +1,29 @@
+.portfolio {
+  height:150vh;
+  width: 99vw;
+  margin: -37vh 0.5vw;
+  background-color: $color-light-grey-1;
+  padding:50vh 3vw;
+}
+
+.clients{
+  padding:5vh 5vw;
+  display: block;
+  margin: 0 auto;
+  transform: translateX(-10vh);
+  opacity: 0;
+  transition: all .7s;
+  &.show{
+    transform:translateX(0);
+    opacity: 1;
+  }
+
+}
+.logo{
+  height:12vh;
+  filter: grayscale(100%);
+  margin-bottom: 3rem;
+  &:not(:last-child){
+    margin-right:$gutter-horizontal;
+  }
+}
