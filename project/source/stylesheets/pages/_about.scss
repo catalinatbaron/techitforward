@@ -1,87 +1,51 @@
 .about{
-  height:100vh;
+  height:130vh;
   width: 99vw;
-  margin: -25vh .5vw;
-  margin-bottom:25vh;
+  margin: -30vh .5vw;
+  margin-bottom:30vh;
   background-color: $color-white;
   padding:30vh 3vw;
-  clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 75%);
-
+  clip-path: polygon(0 25vh, 100% 0, 100% 100%, 0 100%);
 }
+
 
 .card-team {
   overflow: hidden;
-  height: 200px;
+  height: 20rem;
   background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
   display: flex;
   align-items: center;
   border-radius: 3px;
-  /* width: 500px; */
-
-  & img {
-   height: 150%;
-   width: 200px;
-   object-fit: cover;
- }
-
- & h2 {
-   font-size: 24px;
-   font-weight: bold;
-   margin: 0;
- }
-}
+  opacity: 0;
+  transform: translateX(-10vh);
+  transition: all .7s;
 
 
-.card-team p {
-  font-size: 18px;
-  line-height: 1.4;
-  opacity: .7;
-  margin-bottom: 0;
-  margin-top: 8px;
-}
-
-.card-team .card-team-infos {
-  padding: 16px;
-}
-
-.cards-team {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 16px;
-}
-
-// Smallest device
-@media (min-width: 100px) and (max-width: 575px) {
-  .cards-team {
-    grid-template-columns: 1fr;
+  &.show{
+    transform:translateX(0);
+    opacity: 1;
   }
+
 }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  .cards-team {
-    grid-template-columns: 1fr;
-  }
+.card-team__image{
+  height: 25rem;
 }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  .cards-team {
-    grid-template-columns: 1fr 1fr;
-  }
+.falafel{
+  margin-left: 2rem;
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  .cards-team {
-    grid-template-columns: 1fr 1fr;
-  }
-}
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  .cards-team {
-    grid-template-columns: 1fr 1fr;
+.about__text{
+  opacity: 0;
+  transform: translateX(-10vh);
+  transition: all .7s;
+
+
+  &.show{
+    transform:translateX(0);
+    opacity: 1;
   }
 }
